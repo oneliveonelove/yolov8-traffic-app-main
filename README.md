@@ -22,11 +22,11 @@ results = model("https://ultralytics.com/images/bus.jpg")  # Predicting from an 
 success = model.export(format="onnx") # Export the model as ONNX format
 ```
 
-Check YOLOv8 [Python 文档](https://docs.ultralytics.com/usage/python) See below for more examples.
+Check YOLOv8 [Python documentation](https://docs.ultralytics.com/usage/python) See below for more examples.
 
 ## <div align="center"> ⭐ New UI </div>
-![Uploading 522978009-801caa13-24c2-443f-ba4b-3304d3543896.jpg…]()
 
+![1](https://github.com/user-attachments/assets/801caa13-24c2-443f-ba4b-3304d3543896)
 
 
 - In the `ui` folder, there are `ui` files ending with `_new`, which are version 2.0 of the UI.
@@ -36,7 +36,7 @@ Check YOLOv8 [Python 文档](https://docs.ultralytics.com/usage/python) See belo
 - Version 2.0 of the UI is designed for computer screens with a resolution of 1920×1080. The overall window is smaller than before, and the color scheme and other styles have been modified to make it more aesthetically pleasing and comfortable.
 
 - Currently, `main.py` uses version 2.0 of the UI. The theme color changing function has not been modified, so it may look a little strange. You can customize the colors yourself or remove this function (it doesn't have much practical significance except for aesthetics), or write your own color scheme according to your preferences, or switch to version 1.0 of the UI. Multiple theme color schemes look quite good.
-## <div align="center"> ⭐ 项目功能 </div>
+## <div align="center"> ⭐ Project Functions </div>
 
 ### Traffic Object Detection and Instance Segmentation
 
